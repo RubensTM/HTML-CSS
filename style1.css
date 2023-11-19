@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+body{   
+    font-family:'Noto Sans', sans-serif;
+    height: 100vh;
+    background-color: rgb(38, 6, 75);
+    overflow: hidden;
+}
+h1.titulo {
+    color: rgb(0, 255, 85);
+    font-size: 40px;
+    padding:0px 350px
+}
+h1{
+    color: rgb(0, 255, 85);
+    font-size:40px;
+}
+.maior{
+    background-color: rgb(38, 6, 75);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.imagens img{
+    height: 30px;
+    padding: 8px;
+}
+main p{
+    color: white;
+}
+.pergunta a{
+    color:rgb(92, 212, 132);
+}
+.cadastro a{
+    color: rgb(0, 255, 85);
+}
+main{
+    background-color: rgb(93, 37, 158);
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.login > label{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:self-start;
+    color: rgb(0, 0, 0);
+}
+.login > input{
+    background-color: rgba(199, 174, 223, 0.747);
+    width: 400px;
+    height:40px;
+    padding: 5px;
+    border-radius: 7px;
+    border:none;
+    margin: 5px 0px;
+}
+.login > input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.button{
+    background-color: rgb(0, 255, 85);
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px rgb(0, 255, 85);
+    cursor: pointer;
+    letter-spacing: 3px;
+    color: rgb(93, 37, 158);
+    font-size: 20px;
+    font-weight:900;
+}    
+.button:hover {
+    background-color: rgb(0, 200, 68); /* Altere a cor de fundo ao passar o mouse */
+    color: rgb(93, 37, 158);
+}
+.image{
+    padding-left: 10px;
+    height: 600px;
+    width: 900px;
+    display: flex;
+    justify-content: right;
+}
+
